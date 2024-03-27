@@ -33,7 +33,7 @@ class PupilDataset(Dataset):
         frames = []
         annotations = []
 
-        frame_skip = 10  # Skip every X frames
+        frame_skip = 15  # Skip every X frames
         current_frame = 0
 
         while True:
